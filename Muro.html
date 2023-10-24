@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width= , initial-scale=1.0" />
+    <title>PETBOOK WALL</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css" />
+    <link rel="stylesheet" href="./stylemuro.css" />
+</head>
+
+<body>
+    <link rel="stylesheet" type="text/css" href="stylemuro.css">
+    <nav>
+        <div class="container">
+            <h2 class="logo">PETBOOKED</h2>
+            <div class="search-bar">
+                <i class="uil uil-search"></i>
+                <input type="search" placeholder="Search for events, parks and activities" />
+            </div>
+            <div class="create">
+                <label class="btn btn-primary" for="create-post">Share</label>
+                <div class="profile-pic">
+                    <img src="Imagenes/marina.jpg" alt="pic 1" />
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- MENU IZQUIERDA -->
+    <main>
+        <div class="container">
+            <div class="left">
+                <a class="profile">
+                    <div class="profile-pic">
+                        <img src="Imagenes/marina.jpg">
+                    </div>
+                    <div class="handle">
+                        <h4>Marina</h4>
+                        <p class="text-muted">@marinaygatita</p>
+                    </div>
+                </a>
+                <div class="sidebar">
+                    <a class="menu-item active">
+                        <span><i class="uil uil-home"></i></span>
+                        <h3>Home</h3>
+                    </a>
+                    <a class="menu-item" id="notifications">
+                        <span><i class="uil uil-bell"><small class="notification-count">9+</small></i></span>
+                        <h3>Notifications</h3>
+                        <div class="notifications-popup">
+                            <div>
+                                <div class="profile-pic">
+                                    <img src="./Imagenes/muro10.jpg">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-pic">
+                                    <img src="./Imagenes/marina.jpg">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-pic">
+                                    <img src="./Imagenes/muro12.jpg">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-pic">
+                                    <img src="./Imagenes/Mike2.JPG">
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="menu-item" id="messages-notifications">
+                        <i class="uil uil-envelope"><small class="notification-count">6</small></i></span>
+                        <h3>Messages</h3>
+                    </a>
+                    <a class="menu-item ">
+                        <span><i class="uil uil-setting"></i></span>
+                        <h3>Settings</h3>
+                    </a>
+
+                    <label class="btn btn-primary" for="create-post">Post</label>
+                </div>
+            </div>
+            <!-- STORIES -->
+            <div class="middle">
+                <div class="stories">
+                    <div class="story">
+                        <div class="profile-pic">
+                            <img src="./Imagenes/marina.jpg" alt="">
+                        </div>
+                        <p class="name">Your Story</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-pic">
+                            <img src="./Imagenes/muro14.jpg" alt="">
+                        </div>
+                        <p class="name">María J</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-pic">
+                            <img src="./Imagenes/muro1.jpg" alt="">
+                        </div>
+                        <p class="name">Abraham R</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-pic">
+                            <img src="./Imagenes/muro15.jpg" alt="">
+                        </div>
+                        <p class="name">Carolina F</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-pic">
+                            <img src="./Imagenes/muro11.jpg" alt="">
+                        </div>
+                        <p class="name">Mia L</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-pic">
+                            <img src="./Imagenes/muro13.jpg" alt="">
+                        </div>
+                        <p class="name">Jacob P</p>
+                    </div>
+                </div>
+
+                <!-- POST CREATOR -->
+
+                <form class="create-post">
+                    <div class="profile-pic">
+                        <img src="Imagenes/marina.jpg" alt="profilepic">
+                    </div>
+                    <input type="text" placeholder="What do you want to share today?" id="create-post">
+                    <input type="submit" value="Post" class="btn btn-primary">
+                </form>
+                <!-- POSTS FEED -->
+                <div class="feeds">
+                    <div class="feed">
+                        <div class="head">
+
+                        </div>
+                        <div class="user">
+                            <div class="profile-pic">
+                                <img src="Imagenes/muro12.jpg" alt="">
+                            </div>
+                            <div class="info">
+                                <h3>Abraham R</h3>
+                                <small>Mexico, 15 MINUTES AGO</small>
+                            </div>
+                            <SPAN class="edit"><i class="uil uil-ellipsis-h"></i></SPAN>
+                        </div>
+
+                        <div class="photo">
+                            <img src="Imagenes/muro11.jpg" alt="">
+                        </div>
+
+                        <div class="action-button">
+                            <div class="interaction-button">
+                                <span><i class="uil uil-thumbs-up"></i></span>
+                                <span><i class="uil uil-comment"></i></span>
+                                <span><i class="uil uil-share"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="Imagenes/muro8.jpg"></span>
+                            <span><img src="Imagenes/muro15.jpg"></span>
+                            <span><img src="Imagenes/muro2.jpg"></span>
+                            ,<p>Liked by <b>Lluis</b>and <b>20 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Juan</b>Lorem ipsum dolor storiesquiquam eius.
+                                <span class="hash-tag">#petlife</span>
+                            </p>
+                        </div>
+                        <div class="comments text-muted">View all 29 comments</div>
+                    </div>
+
+                    <div class="feed">
+                        <div class="head">
+
+                        </div>
+                        <div class="user">
+                            <div class="profile-pic">
+                                <img src="Imagenes/muro8.jpg" alt="">
+                            </div>
+                            <div class="info">
+                                <h3>Oliver P</h3>
+                                <small>Madrid, 1 HOUR AGO</small>
+                            </div>
+                            <SPAN class="edit"><i class="uil uil-ellipsis-h"></i></SPAN>
+                        </div>
+
+                        <div class="photo">
+                            <img src="Imagenes/muro6.jpg" alt="">
+                        </div>
+
+                        <div class="action-button">
+                            <div class="interaction-button">
+                                <span><i class="uil uil-thumbs-up"></i></span>
+                                <span><i class="uil uil-comment"></i></span>
+                                <span><i class="uil uil-share"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="Imagenes/muro9.jpg"></span>
+                            <span><img src="Imagenes/muro6.jpg"></span>
+                            <span><img src="Imagenes/muro4.jpg"></span>
+                            ,<p>Liked by <b>Alicia S</b>and <b>18 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Lukas</b>Lorem ipsum dolor storiesquiquam eius.
+                                <span class="hash-tag">#Loveisinthepet</span>
+                            </p>
+                        </div>
+                        <div class="comments text-muted">View all 10 comments</div>
+                    </div>
+
+                    <div class="feed">
+                        <div class="head">
+
+                        </div>
+                        <div class="user">
+                            <div class="profile-pic">
+                                <img src="Imagenes/muro15.jpg" alt="">
+                            </div>
+                            <div class="info">
+                                <h3>Alejandra D</h3>
+                                <small>Valencia, 7 HOURS AGO</small>
+                            </div>
+                            <SPAN class="edit"><i class="uil uil-ellipsis-h"></i></SPAN>
+                        </div>
+
+                        <div class="photo">
+                            <img src="Imagenes/muro3.jpg" alt="">
+                        </div>
+
+                        <div class="action-button">
+                            <div class="interaction-button">
+                                <span><i class="uil uil-thumbs-up"></i></span>
+                                <span><i class="uil uil-comment"></i></span>
+                                <span><i class="uil uil-share"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="Imagenes/Mike1.jpg"></span>
+                            <span><img src="Imagenes/muro15.jpg"></span>
+                            <span><img src="Imagenes/muro4.jpg"></span>
+                            ,<p>Liked by <b>Michelle </b>and <b>13 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Ivonne</b>Lorem ipsum dolor storiesquiquam eius.
+                                <span class="hash-tag">#Happypets</span>
+                            </p>
+                        </div>
+                        <div class="comments text-muted">View all 15 comments</div>
+                    </div>
+
+                    <div class="feed">
+                        <div class="head">
+
+                        </div>
+                        <div class="user">
+                            <div class="profile-pic">
+                                <img src="Imagenes/muro15.jpg" alt="">
+                            </div>
+                            <div class="info">
+                                <h3>Santiago</h3>
+                                <small>Valencia, 4 HOURS AGO</small>
+                            </div>
+                            <SPAN class="edit"><i class="uil uil-ellipsis-h"></i></SPAN>
+                        </div>
+
+                        <div class="photo">
+                            <img src="Imagenes/muro10.jpg" alt="">
+                        </div>
+
+                        <div class="action-button">
+                            <div class="interaction-button">
+                                <span><i class="uil uil-thumbs-up"></i></span>
+                                <span><i class="uil uil-comment"></i></span>
+                                <span><i class="uil uil-share"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="Imagenes/muro13.jpg"></span>
+                            <span><img src="Imagenes/muro14.jpg"></span>
+                            <span><img src="Imagenes/muro15.jpg"></span>
+                            ,<p>Liked by <b>Abraham R</b>and <b>280 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Lulu </b>Lorem ipsum dolor storiesquiquam eius.
+                                <span class="hash-tag">#lifestyle</span>
+                            </p>
+                        </div>
+                        <div class="comments text-muted">View all 10 comments</div>
+                    </div>
+
+                    <div class="feed">
+                        <div class="head">
+
+                        </div>
+                        <div class="user">
+                            <div class="profile-pic">
+                                <img src="Imagenes/muro9.jpg" alt="">
+                            </div>
+                            <div class="info">
+                                <h3>Dan</h3>
+                                <small>Valencia, 2 DAYS AGO</small>
+                            </div>
+                            <SPAN class="edit"><i class="uil uil-ellipsis-h"></i></SPAN>
+                        </div>
+
+                        <div class="photo">
+                            <img src="Imagenes/muro2.jpg" alt="">
+                        </div>
+
+                        <div class="action-button">
+                            <div class="interaction-button">
+                                <span><i class="uil uil-thumbs-up"></i></span>
+                                <span><i class="uil uil-comment"></i></span>
+                                <span><i class="uil uil-share"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="Imagenes/muro1.jpg"></span>
+                            <span><img src="Imagenes/muro13.jpg"></span>
+                            <span><img src="Imagenes/muro14.jpg"></span>
+                            ,<p>Liked by <b>Abraham R</b>and <b>12 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Dan</b>Lorem ipsum dolor storiesquiquam eius.
+                                <span class="hash-tag">#Ilovemypet</span>
+                            </p>
+                        </div>
+                        <div class="comments text-muted">View all 10 comments</div>
+                    </div>
+
+                    <div class="feed">
+                        <div class="head">
+
+                        </div>
+                        <div class="user">
+                            <div class="profile-pic">
+                                <img src="Imagenes/muro1.jpg" alt="">
+                            </div>
+                            <div class="info">
+                                <h3>Max</h3>
+                                <small>Valencia, 20 MINUTES AGO</small>
+                            </div>
+                            <SPAN class="edit"><i class="uil uil-ellipsis-h"></i></SPAN>
+                        </div>
+
+                        <div class="photo">
+                            <img src="Imagenes/muro7.jpg" alt="">
+                        </div>
+
+                        <div class="action-button">
+                            <div class="interaction-button">
+                                <span><i class="uil uil-thumbs-up"></i></span>
+                                <span><i class="uil uil-comment"></i></span>
+                                <span><i class="uil uil-share"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="Imagenes/muro9.jpg"></span>
+                            <span><img src="images/profile-14.jpg"></span>
+                            <span><img src="images/profile-17.jpg"></span>
+                            ,<p>Liked by <b>Abraham R</b>and <b>15 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Claire</b>Lorem ipsum dolor storiesquiquam eius.
+                                <span class="hash-tag">#lifestyle</span>
+                            </p>
+                        </div>
+                        <div class="comments text-muted">View all 30 comments</div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+
+                        </div>
+                        <div class="user">
+                            <div class="profile-pic">
+                                <img src="images/profile-20.jpg" alt="">
+                            </div>
+                            <div class="info">
+                                <h3>Diego</h3>
+                                <small>Valencia, 11 HOURS AGO</small>
+                            </div>
+                            <SPAN class="edit"><i class="uil uil-ellipsis-h"></i></SPAN>
+                        </div>
+                        <div class="photo">
+                            <img src="Imagenes/muro11.jpg" alt="">
+                        </div>
+
+                        <div class="action-button">
+                            <div class="interaction-button">
+                                <span><i class="uil uil-thumbs-up"></i></span>
+                                <span><i class="uil uil-comment"></i></span>
+                                <span><i class="uil uil-share"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="Imagenes/muro13.jpg"></span>
+                            <span><img src="Imagenes/muro12.jpg"></span>
+                            <span><img src="Imagenes/muro2.jpg"></span>
+                            ,<p>Liked by <b>Diego</b>and <b>530 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Diana</b>Lorem ipsum dolor storiesquiquam eius.
+                                <span class="hashtag">#lifewithpets</span>
+                            </p>
+                        </div>
+                        <div class="comments text-muted">View all 190 comments</div>
+                    </div>
+                </div>
+            </div>
+            <!-- MESSAGES -->
+            <div class="right">
+                <div class="messages">
+                    <div class="heading">
+                        <h4>Messages</h4>
+                        <span><i class="uil uil-edit"></i></span>
+                    </div>
+
+                    <div class="search-bar">
+                        <span><i class="uil uil-search"></i></span>
+                        <input type="search" placeholder="Search Messages" id="message-search">
+                    </div>
+
+                    <div class="category">
+                        <h6 class="active">Best friends</h6>
+                        <h6>General</h6>
+                        <h6 class="message-requests">Requests(4)</h6>
+                    </div>
+                    <div class="message">
+                        <div class="profile-pic">
+                            <img src="Imagenes/muro11.jpg">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Diego</h5>
+                            <p class="text-muted">See you at the park in 5 minutes</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-pic">
+                            <img src="Imagenes/muro14.jpg">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Dan</h5>
+                            <p class="text-bold">2 New Messages</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-pic">
+                            <img src="Imagenes/muro15.jpg">
+                        </div>
+                        <div class="message-body">
+                            <h5>Abraham</h5>
+                            <p class="text-muted">My cat misses yours</p>
+                        </div>
+                    </div>
+                    <!-- FRIEND REQUESTS -->
+                    <div class="friend-requests">
+                        <h4>Requests</h4>
+                        <div class="request">
+                            <div class="info">
+                                <div class="profile-pic">
+                                    <img src="Imagenes/muro14.jpg">
+                                </div>
+                                <div>
+                                    <h5>William</h5>
+                                    <p class="text-muted">2 mutual friends</p>
+
+                                </div>
+                            </div>
+                            <div class="action">
+                                <button class="btn btn-primary">Accept</button>
+                                <button class="btn">Decline</button>
+                            </div>
+                        </div>
+                        <div class="request">
+                            <div class="info">
+                                <div class="profile-pic">
+                                    <img src="Imagenes/muro11.jpg">
+                                </div>
+                                <div>
+                                    <h5>Luna</h5>
+                                    <p class="text-muted">2 mutual friends</p>
+
+                                </div>
+                            </div>
+                            <div class="action">
+                                <button class="btn btn-primary">Accept</button>
+                                <button class="btn">Decline</button>
+                            </div>
+                        </div>
+                        <div class="request">
+                            <div class="info">
+                                <div class="profile-pic">
+                                    <img src="Imagenes/muro1.jpg">
+                                </div>
+                                <div>
+                                    <h5>Leo</h5>
+                                    <p class="text-muted">1 mutual friend</p>
+
+                                </div>
+                            </div>
+                            <div class="action">
+                                <button class="btn btn-primary">Accept</button>
+                                <button class="btn">Decline</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+    </main>
+</body>
+
+</html>
